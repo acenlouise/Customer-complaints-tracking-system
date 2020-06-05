@@ -1,0 +1,2 @@
+[30-May-2020 16:44:39 UTC] PHP Fatal error:  Class 'DB' not found in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 2
+[30-May-2020 16:44:42 UTC] PHP Fatal error:  Class 'DB' not found in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 2

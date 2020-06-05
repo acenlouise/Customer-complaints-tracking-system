@@ -1,0 +1,64 @@
+[29-May-2020 23:38:39 UTC] PHP Fatal error:  Uncaught Error: Class 'complaint' not found in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php on line 8
+[29-May-2020 23:38:41 UTC] PHP Fatal error:  Uncaught Error: Class 'complaint' not found in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php on line 8
+[29-May-2020 23:38:41 UTC] PHP Fatal error:  Uncaught Error: Class 'complaint' not found in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php on line 8
+[29-May-2020 23:38:44 UTC] PHP Fatal error:  Uncaught Error: Class 'complaint' not found in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view_complaints.php on line 8
+[30-May-2020 20:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Complaints::get_complaints() in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view-complaints.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/view-complaints.php on line 39
+[30-May-2020 20:53:24 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 28
+[30-May-2020 21:02:03 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 28
+[30-May-2020 21:03:39 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 28
+[30-May-2020 21:25:49 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 37
+[30-May-2020 21:26:53 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 37
+[30-May-2020 21:40:41 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 28
+[30-May-2020 21:44:45 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 28
+[30-May-2020 21:45:33 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 37
+[30-May-2020 22:47:48 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/complaint-detail.php on line 109
+[30-May-2020 23:26:02 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/myaipunitasks/public_html/cctf/customer_complaints/views/common/complaints_sidebar.php on line 17
+[30-May-2020 23:26:03 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/myaipunitasks/public_html/cctf/customer_complaints/views/common/complaints_sidebar.php on line 17
+[30-May-2020 23:27:26 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 2
+[31-May-2020 02:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchColumn() on null in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:54
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/ais_operators.php(8): DB->count_rows('SELECT count(*)...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/login_script.php(10): Operators->get_operator_login('louise', 'acen')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 54
+[31-May-2020 02:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchColumn() on null in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:54
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/ais_operators.php(8): DB->count_rows('SELECT count(*)...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/login_script.php(10): Operators->get_operator_login('louise', 'acen')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 54
+[31-May-2020 02:55:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchColumn() on boolean in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:54
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/ais_operators.php(8): DB->count_rows('SELECT count(*)...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/login_script.php(10): Operators->get_operator_login('louise', 'acen')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 54
+[31-May-2020 02:56:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchColumn() on boolean in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:54
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/ais_operators.php(8): DB->count_rows('SELECT count(*)...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/ais_operator/login_script.php(10): Operators->get_operator_login('louise', 'acen')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 54
+[01-Jun-2020 12:44:38 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/myaipunitasks/public_html/cctf/views/ais_operator/submit_response.php on line 16
+[01-Jun-2020 13:52:54 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home/myaipunitasks/public_html/cctf/controller/complaints.php on line 47
+[01-Jun-2020 13:53:01 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home/myaipunitasks/public_html/cctf/controller/complaints.php on line 47
+[01-Jun-2020 13:53:12 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home/myaipunitasks/public_html/cctf/controller/complaints.php on line 47
+[01-Jun-2020 13:53:58 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home/myaipunitasks/public_html/cctf/controller/complaints.php on line 47
+[01-Jun-2020 13:54:23 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home/myaipunitasks/public_html/cctf/controller/complaints.php on line 47
+[01-Jun-2020 17:18:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/myaipunitasks/public_html/cctf/views/ais_operator/complaint-detail.php on line 163
+[01-Jun-2020 17:18:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/myaipunitasks/public_html/cctf/views/ais_operator/complaint-detail.php on line 163

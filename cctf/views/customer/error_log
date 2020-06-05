@@ -1,0 +1,49 @@
+[30-May-2020 00:25:40 UTC] PHP Recoverable fatal error:  Object of class Complaints could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 00:26:05 UTC] PHP Recoverable fatal error:  Object of class Complaints could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 00:27:48 UTC] PHP Recoverable fatal error:  Object of class Complaints could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 00:28:06 UTC] PHP Recoverable fatal error:  Object of class Complaints could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 00:33:41 UTC] PHP Recoverable fatal error:  Object of class Complaints could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 00:43:16 UTC] PHP Recoverable fatal error:  Object of class Complaints could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 13:48:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Complaints::query() in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php:8
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(10): Complaints->put_Comp('jonathan kayizz...', 'jonahkayizzi@gm...', Object(Complaints))
+#1 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 13:53:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Complaints::query() in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php:8
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(10): Complaints->put_Comp('jonathan kayizz...', 'jonahkayizzi@gm...', 'tttttttt')
+#1 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 8
+[30-May-2020 14:05:03 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 9
+[30-May-2020 14:05:25 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php on line 9
+[30-May-2020 14:11:33 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 49
+[31-May-2020 00:59:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:52
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php(19): DB->query('INSERT INTO `co...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(11): Complaints->put_Comp('jonathan kayizz...', 'jonahkayizzi@gm...', 'dd', 'xssssssssssssss...')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 52
+[31-May-2020 00:59:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:52
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php(19): DB->query('INSERT INTO `co...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(11): Complaints->put_Comp(NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 52
+[31-May-2020 00:59:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:52
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php(19): DB->query('INSERT INTO `co...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(11): Complaints->put_Comp('jonathan kayizz...', 'jonahkayizzi@gm...', 'dd', 'xssssssssssssss...')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 52
+[31-May-2020 00:59:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:52
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php(19): DB->query('INSERT INTO `co...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(11): Complaints->put_Comp('jonathan kayizz...', 'jonahkayizzi@gm...', 'dd', 'xssssssssssssss...')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 52
+[31-May-2020 00:59:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php:52
+Stack trace:
+#0 /home/myaipunitasks/public_html/cctf/customer_complaints/controller/complaints.php(19): DB->query('INSERT INTO `co...', Array)
+#1 /home/myaipunitasks/public_html/cctf/customer_complaints/views/customer/submit_complaint.php(11): Complaints->put_Comp('jonathan kayizz...', 'jonahkayizzi@gm...', 'jjjhhh', 'xssssssssssssss...')
+#2 {main}
+  thrown in /home/myaipunitasks/public_html/cctf/customer_complaints/model/database.php on line 52
